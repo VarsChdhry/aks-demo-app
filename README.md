@@ -82,6 +82,8 @@ As show in first diagram the IP assigned to LB by Ingress Controller would be ad
 <img width="593" alt="image" src="https://user-images.githubusercontent.com/67351893/224807784-13d202a2-a705-4d06-8548-8fd4f5108262.png">
 
 
+<img width="397" alt="image" src="https://user-images.githubusercontent.com/67351893/224808440-e08a2c3b-e5cb-4f8e-82a5-28159fa275d4.png">
+
 
 
 
