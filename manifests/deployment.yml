@@ -1,19 +1,22 @@
-apiVersion : apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: webapp 
+  name: webapp-nginx
+  labels:
+    app: webapp-nginx
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: webapp
+      app: webapp-nginx
   template:
     metadata:
       labels:
-        app: webapp 
+        app: webapp-nginx
     spec:
       containers:
-        - name: webapp 
-          image: varshasassessment.azurecr.io/webapp
-          ports:
-          - containerPort: 80
+      - name: webapp-nginx
+        image: varshadevopsassessment.azurecr.io/webapp
+        ports:
+        - containerPort: 80
+        
