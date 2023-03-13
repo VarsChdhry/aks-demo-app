@@ -10,10 +10,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - viralnationassessment.com
+    - varsha.one
     secretName: tls-secret
   rules:
-  - host: viralnationassessment.com
+  - host: varsha.one
     http:
       paths:
       - path: /(.*)
