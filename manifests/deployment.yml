@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: webapp-nginx
-        image: varshadevopsassessment.azurecr.io/webapp
+        image: varshasassessment.azurecr.io/webapp
         imagePullPolicy: Always
         ports:
         - containerPort: 80
