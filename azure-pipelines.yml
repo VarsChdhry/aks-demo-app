@@ -21,7 +21,7 @@ variables:
   vmImageName: 'ubuntu-latest'
 
 
-stages:
+jobs:
 - job: Build
   displayName: Build
   pool:
