@@ -1,8 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: webapp-nginx-deployment
-  namespace: ingress-basic
+  name: webapp-nginx
   labels:
     app: webapp-nginx
 spec:
